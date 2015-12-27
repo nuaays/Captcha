@@ -2,6 +2,7 @@
 https://www.dianrong.com/images/captcha.jpg
 
 ---------------------------------------------------------------------------------------------
+`
 Captcha_URL="https://www.dianrong.com/images/captcha.jpg"
 while true
 do
@@ -10,4 +11,4 @@ do
 	curl -k -H "Host:www.dianrong.com"  ${Captcha_URL}  -o ${pic_file}
 	sleep 3
 done
----------------------------------------------------------------------------------------------
+`
